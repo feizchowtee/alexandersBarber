@@ -390,12 +390,12 @@ a {
                                           align-items: center;
                                           justify-content: center;
                                           color: $brown;
-
                                           &:hover {
                                                 color: $yellow;
                                           }
 
                                           i {
+                                                color: $brown;
                                                 font-size: 2em;
                                           }
                                     }
