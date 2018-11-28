@@ -9589,7 +9589,7 @@ nav {
 }
 
 a {
-  color: #ffffff;
+  color: #3f3531;
   -webkit-transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -9610,8 +9610,10 @@ a:hover {
 
 .hero .container h1 {
   color: #ffffff;
-  font-size: 4em;
+  font-size: 3.5em;
   font-family: 'HK Nova';
+  padding: 0;
+  margin: 0;
 }
 
 .hero .container h1 span {
@@ -9637,7 +9639,7 @@ a:hover {
 .about .container .row .col-md-8 {
   width: 100%;
   height: 100%;
-  padding: 2em;
+  padding: 1em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -9735,9 +9737,10 @@ a:hover {
 .services .container .pricing .col-md-6 ul li.listPrice {
   font-size: 28px;
   color: #ffaa00;
-  font-family: 'league spartan';
+  font-family: 'HK Nova';
   margin-bottom: 10px;
   position: relative;
+  font-weight: bold;
 }
 
 .services .container .pricing .col-md-6 ul li.listPrice span {
@@ -9841,6 +9844,10 @@ a:hover {
 
 .contact .row .contact-details h2 {
   margin: 0 0 0 0;
+}
+
+.contact .row .contact-details a {
+  color: #212121;
 }
 
 .contact .row .contact-details p {
